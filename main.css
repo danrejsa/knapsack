@@ -1,0 +1,53 @@
+body{
+    background:#333;
+}
+div {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+    margin-left: 43%;
+    color:white;
+    
+}
+input{
+    margin-left: 43%;
+}
+#p1{
+    
+    margin-left: 27%;  
+    font-size:20px;
+    font-weight: bold;
+    color:red;
+}
+
+#p2{
+   color:white;
+    margin-left: 34%;  
+}
+
+.items {
+  width: 50.72%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+}
+button {
+  padding: 5px;
+  margin: 8px;
+  width: 150px;
+}
+#done{
+    color:white; 
+    background:blue;
+     margin-left:40%;
+     border-radius:5px;
+}
+#refill{
+    color:white; 
+    background:green;     
+     border-radius:5px;
+}
