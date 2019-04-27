@@ -77,7 +77,7 @@ apple.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
       Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -109,7 +109,7 @@ banana.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -121,7 +121,7 @@ banana.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -153,7 +153,6 @@ pear.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -165,7 +164,7 @@ pear.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -198,7 +197,7 @@ cashew.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -210,7 +209,7 @@ cashew.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -243,7 +242,7 @@ guava.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -255,7 +254,7 @@ guava.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -288,7 +287,7 @@ coconut.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -300,7 +299,7 @@ coconut.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -333,7 +332,7 @@ pineaple.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -345,7 +344,7 @@ pineaple.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -377,7 +376,7 @@ cocoa.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -389,7 +388,7 @@ cocoa.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -422,7 +421,7 @@ cassava.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -434,7 +433,7 @@ cassava.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -467,7 +466,6 @@ yam.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack can take more! Current weight:${adder}kg
         Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -511,7 +509,7 @@ kolanut.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -523,7 +521,7 @@ kolanut.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -556,7 +554,7 @@ carrot.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -568,7 +566,7 @@ carrot.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -613,7 +611,7 @@ stone.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -646,7 +644,7 @@ phone.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -658,7 +656,7 @@ phone.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -691,7 +689,7 @@ bag.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack can take more! Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -736,7 +734,6 @@ papaye.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack can take more! Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -748,7 +745,7 @@ papaye.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -764,6 +761,7 @@ papaye.addEventListener("click", function(item) {
     });
   }
 });
+
 orange.addEventListener("click", function(item) {
   if (maxCap.value == "") {
     alert("Please input maximum capacity for Knapsack");
@@ -780,7 +778,6 @@ orange.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack can take more! Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -792,7 +789,7 @@ orange.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -825,7 +822,6 @@ watermelon.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack can take more! Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -837,7 +833,7 @@ watermelon.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
           Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -853,6 +849,7 @@ watermelon.addEventListener("click", function(item) {
     });
   }
 });
+
 pawpaw.addEventListener("click", function(item) {
   if (maxCap.value == "") {
     alert("Please input maximum capacity for Knapsack");
@@ -869,7 +866,6 @@ pawpaw.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack can take more! Current weight:${adder}kg
             Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -881,7 +877,7 @@ pawpaw.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
+
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
             Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -897,6 +893,7 @@ pawpaw.addEventListener("click", function(item) {
     });
   }
 });
+
 cucumber.addEventListener("click", function(item) {
   if (maxCap.value == "") {
     alert("Please input maximum capacity for Knapsack");
@@ -913,7 +910,6 @@ cucumber.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack can take more! Current weight:${adder}kg
             Remaining Capacity: ${maxCap.value - adder}kg`;
     });
@@ -925,7 +921,6 @@ cucumber.addEventListener("click", function(item) {
     const doneBut = document.querySelector("#done");
     doneBut.addEventListener("click", function() {
       display.style.background = "white";
-      display.textContent = "DONE!";
       display.textContent = `knapsack weight equals maximum capacity!!!!... Current weight:${adder}kg
             Remaining Capacity: ${maxCap.value - adder}kg`;
     });
