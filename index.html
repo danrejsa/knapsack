@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href='main.css' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="main.css" rel="stylesheet" />
     <title>Knapsack</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>KnapSack</h1>
-    <p id='p1'>Please, input maximum capacity for Knapsack before you add items! </p>
-    
-    <input type="text" placeholder='maximum weight'>
-    
-    <div id='display'></div>
-   
-    <p id='p2'>Items to add to KnapSack! Please, click to add items to knapsack. </p>    
-   
-    <section class='items'>
-    <button id='apple'>Apple (w=10)</button>
-    <button id='banana'>banana (w=15)</button>
-    <button id='pear'>Pear (w=35)</button>
-    <button id='cashew'>Cashew (w=20)</button>
-    <button id='guava'>Guava (w=23)</button>
-    <button id='coconut'>Coconut (w=24)</button>
-    <button id='pineaple'>Pineaple (w=18)</button>
-    <button id='cocoa'>Cocoa (w=15)</button>
-    <button id='cassava'>Cassava (w=17)</button>
-    <button id='yam'>Yam (w=25)</button>
-    <button id='kolanut'>Kolanut (w=5)</button>
-    <button id='carrot'>Carrot (w=10)</button>
-    <button id='stone'>Stone (w=50)</button>
-    <button id='phone'>Phone (w=33)</button>
-    <button id='bag'>Bag (w=38)</button>
-    <button id='papaye'>Papaye (w=27)</button>
-    <button id='orange'>Orange (w=19)</button>
-    <button id='watermelon'>Waterlon (w=35)</button>
-    <button id='pawpaw'>Pawpaw (w=29)</button>
-    <button id='cucumber'>Cucumber (w=15)</button>
-    </section>
-    <button id='done'>Done</button><button id='refill'>Refill Knapsack</button>
+    <p id="p1">
+      Please, input maximum capacity for Knapsack before you add items!
+    </p>
 
+    <input type="text" placeholder="maximum Capacity (kg)" /> 
+
+    <p id="p2">
+      Items to add to KnapSack! Please, click to add items to knapsack.
+    </p>
+
+    <section class="items">
+      <button class='items-added' weight=10   value='1' id="apple">Apple (w=10kg)</button>
+      <button class='items-added' weight=15   value='2' id="banana">banana (w=15kg)</button>
+      <button class='items-added' weight='35' value='3' id="pear">Pear (w=35kg)</button>
+      <button class='items-added' weight='20' value='4' id="cashew">Cashew (w=20kg)</button>
+      <button class='items-added' weight='23' value='5' id="guava">Guava (w=23kg)</button>
+      <button class='items-added' weight='24' value='6' id="coconut">Coconut (w=24kg)</button>
+      <button class='items-added' weight='18' value='7' id="pineaple">Pineaple (w=18kg)</button>
+      <button class='items-added' weight='15' value='8' id="cocoa">Cocoa (w=15kg)</button>
+      <button class='items-added' weight='17' value='9' id="cassava">Cassava (w=17kg)</button>
+      <button class='items-added' weight='25' value='10' id="yam">Yam (w=25kg)</button>
+      <button class='items-added' weight='5'  value='11' id="kolanut">Kolanut (w=5kg)</button>
+      <button class='items-added' weight='10' value='12'id="carrot">Carrot (w=10kg)</button>
+      <button class='items-added' weight='50' value='13'id="stone">Stone (w=50kg)</button>
+      <button class='items-added' weight='33' value='14'id="phone">Phone (w=33kg)</button>
+      <button class='items-added' weight='38' value='15' id="bag">Bag (w=38kg)</button>
+      <button class='items-added' weight='27' value='16' id="papaye">Papaye (w=27kg)</button>
+      <button class='items-added' weight='19' value='17'id="orange">Orange (w=19kg)</button>
+      <button class='items-added' weight='35' value='18'id="watermelon">Waterlon (w=35kg)</button>
+      <button class='items-added' weight='29' value='19'id="pawpaw">Pawpaw (w=29kg)</button>
+      <button class='items-added' weight='1'  value='20' id="cucumber">Cucumber (w=15kg)</button>
+    </section>
+    <button id="done">Done</button><button id="refill">Refill Knapsack</button>
+    <div id="display"></div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
